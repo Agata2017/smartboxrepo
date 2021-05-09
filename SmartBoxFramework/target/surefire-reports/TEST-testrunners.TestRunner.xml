@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.TestRunner" time="22.369" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.TestRunner" time="21.998" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Users\agata\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\agata\AppData\Local\Temp\surefire16755399418858162322\surefirebooter6342504479472604968.jar C:\Users\agata\AppData\Local\Temp\surefire16755399418858162322 2021-05-09T10-42-38_157-jvmRun1 surefire12011865813068608485tmp surefire_016647556162437635278tmp"/>
+    <property name="sun.java.command" value="C:\Users\agata\AppData\Local\Temp\surefire15004067214674861244\surefirebooter9676185271744114660.jar C:\Users\agata\AppData\Local\Temp\surefire15004067214674861244 2021-05-09T15-20-49_598-jvmRun1 surefire9701207706148319135tmp surefire_0125231769186872466tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Code_WizdomQA\SmartBoxFramework\target\test-classes;C:\Code_WizdomQA\SmartBoxFramework\target\classes;C:\Users\agata\.m2\repository\io\cucumber\cucumber-java\5.4.0\cucumber-java-5.4.0.jar;C:\Users\agata\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\agata\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\agata\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\agata\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\agata\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\agata\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\agata\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\agata\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\agata\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\agata\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\agata\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\agata\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\agata\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-junit\5.4.0\cucumber-junit-5.4.0.jar;C:\Users\agata\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\agata\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-core\5.4.0\cucumber-core-5.4.0.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-gherkin\5.4.0\cucumber-gherkin-5.4.0.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.4.0\cucumber-gherkin-vintage-5.4.0.jar;C:\Users\agata\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\agata\.m2\repository\io\cucumber\datatable\3.3.0\datatable-3.3.0.jar;C:\Users\agata\.m2\repository\io\cucumber\cucumber-plugin\5.4.0\cucumber-plugin-5.4.0.jar;C:\Users\agata\.m2\repository\io\cucumber\docstring\5.4.0\docstring-5.4.0.jar;C:\Users\agata\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.0\webdrivermanager-4.3.0.jar;C:\Users\agata\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\agata\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\agata\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\agata\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\agata\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\agata\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\agata\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\agata\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\agata\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\agata\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\agata\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\agata\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\agata\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\agata\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\agata\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\agata\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\agata\AppData\Local\Temp\surefire16755399418858162322\surefirebooter6342504479472604968.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\agata\AppData\Local\Temp\surefire15004067214674861244\surefirebooter9676185271744114660.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -48,12 +48,127 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\agata\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/agata/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/agata/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;%JAVA_HOME%\bin;C:\Users\agata\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Users\agata\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/agata/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/agata/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;%JAVA_HOME%\bin;C:\Program Files\Git\cmd;C:\Users\agata\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="As a Customer I want to find a desired box and add it to the chart" classname="Smartbox Adding Gift to Chart" time="21.924"/>
+  <testcase name="As a Customer I want to find a desired box and add it to the chart" classname="Smartbox Adding Gift to Chart" time="11.428">
+    <error message="element click intercepted: Element &lt;a href=&quot;https://www.smartbox.com/ie/checkout/cart/index/id/14271/&quot; class=&quot;button primary no-margin-bottom&quot;&gt;...&lt;/a&gt; is not clickable at point (955, 340). Other element would receive the click: &lt;div class=&quot;row &quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=90.0.4430.93)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-JQK6IIEI&apos;, ip: &apos;192.168.0.199&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a1110e06cfd8c689e879def9ca1dec96" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://www.smartbox.com/ie/checkout/cart/index/id/14271/" class="button primary no-margin-bottom">...</a> is not clickable at point (955, 340). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1110e06cfd8c689e879def9ca1dec96
+]]></error>
+    <system-out><![CDATA[
+Scenario: As a Customer I want to find a desired box and add it to the chart                  &amp#27;[90m# src/test/resources/applicationFeature/AddABoxToChart.feature:2&amp#27;[0m
+browser value is chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am navigated to Smartbox website&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.HomePageSteps.i_am_navigated_to_Smartbox_website()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI am on the home page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smartbox Ireland - Experience Gifts for all Occasions"&amp#27;[0m          &amp#27;[90m# stepdefinitions.HomePageSteps.i_select_to_Our_popular_box_section(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI choose desired box&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.HomePageSteps.i_choose_desired_box()&amp#27;[0m
+Home Page title is Gift Box Pamper Treats - Smartbox
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Add To Chart button on page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Gift Box Pamper Treats - Smartbox"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_click_on_Add_To_Chart_button(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI accept Add To Chart pop up&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_accept_Add_To_Chart_pop_up()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.smartbox.com/ie/checkout/cart/index/id/14271/" class="button primary no-margin-bottom">...</a> is not clickable at point (955, 340). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1110e06cfd8c689e879def9ca1dec96
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.pages.ProductDetailsPage.clickgoToCartButton(ProductDetailsPage.java:42)
+	at stepdefinitions.ProductDetailsSteps.i_accept_Add_To_Chart_pop_up(ProductDetailsSteps.java:35)
+	at ?.I accept Add To Chart pop up(file:///C:/Code_WizdomQA/SmartBoxFramework/src/test/resources/applicationFeature/AddABoxToChart.feature:7)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be able to place my order on page &amp#27;[0m&amp#27;[36m&amp#27;[1m"Original gift boxes for anyone - Smartbox"&amp#27;[0m &amp#27;[90m# stepdefinitions.ChartPageSteps.i_should_be_able_to_place_my_order(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[May 09, 2021 3:20:51 P.M. io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46596
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2021 3:20:54 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="As a Customer I want to find desired boxes and add it to the chart" classname="Smartbox Adding Gift to Chart" time="9.886">
+    <error message="element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;button no-margin-bottom close-reveal-modal close-reveal-modal--no-style&quot;&gt;...&lt;/a&gt; is not clickable at point (749, 338). Other element would receive the click: &lt;div class=&quot;row &quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=90.0.4430.93)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-JQK6IIEI&apos;, ip: &apos;192.168.0.199&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aed5db846e7ff961e60f4bf89c8719be" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="javascript:void(0)" class="button no-margin-bottom close-reveal-modal close-reveal-modal--no-style">...</a> is not clickable at point (749, 338). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aed5db846e7ff961e60f4bf89c8719be
+]]></error>
+    <system-out><![CDATA[
+Scenario: As a Customer I want to find desired boxes and add it to the chart                  &amp#27;[90m# src/test/resources/applicationFeature/AddABoxToChart.feature:10&amp#27;[0m
+browser value is chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am navigated to Smartbox website&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.HomePageSteps.i_am_navigated_to_Smartbox_website()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI am on the home page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smartbox Ireland - Experience Gifts for all Occasions"&amp#27;[0m          &amp#27;[90m# stepdefinitions.HomePageSteps.i_select_to_Our_popular_box_section(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI choose desired box&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.HomePageSteps.i_choose_desired_box()&amp#27;[0m
+Home Page title is Gift Box Pamper Treats - Smartbox
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Add To Chart button on page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Gift Box Pamper Treats - Smartbox"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_click_on_Add_To_Chart_button(java.lang.String)&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI decide to Continue Shopping&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_decide_to_Continue_Shopping()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="button no-margin-bottom close-reveal-modal close-reveal-modal--no-style">...</a> is not clickable at point (749, 338). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aed5db846e7ff961e60f4bf89c8719be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.pages.ProductDetailsPage.clickContinueShoppingButton(ProductDetailsPage.java:38)
+	at stepdefinitions.ProductDetailsSteps.i_decide_to_Continue_Shopping(ProductDetailsSteps.java:46)
+	at ?.I decide to Continue Shopping(file:///C:/Code_WizdomQA/SmartBoxFramework/src/test/resources/applicationFeature/AddABoxToChart.feature:15)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI choose desired box2&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.HomePageSteps.i_choose_desired_box2()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Add To Chart button on page&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_click_on_Add_To_Chart_button_on_page()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI accept Add To Chart pop up&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ProductDetailsSteps.i_accept_Add_To_Chart_pop_up()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be able to place my order on page &amp#27;[0m&amp#27;[36m&amp#27;[1m"Original gift boxes for anyone - Smartbox"&amp#27;[0m &amp#27;[90m# stepdefinitions.ChartPageSteps.i_should_be_able_to_place_my_order(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16598
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2021 3:21:04 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

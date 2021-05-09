@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: testrunners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.369 s - in testrunners.TestRunner
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 21.998 s <<< FAILURE! - in testrunners.TestRunner
+Smartbox Adding Gift to Chart.As a Customer I want to find a desired box and add it to the chart  Time elapsed: 11.428 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://www.smartbox.com/ie/checkout/cart/index/id/14271/" class="button primary no-margin-bottom">...</a> is not clickable at point (955, 340). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1110e06cfd8c689e879def9ca1dec96
+
+Smartbox Adding Gift to Chart.As a Customer I want to find desired boxes and add it to the chart  Time elapsed: 9.886 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="javascript:void(0)" class="button no-margin-bottom close-reveal-modal close-reveal-modal--no-style">...</a> is not clickable at point (749, 338). Other element would receive the click: <div class="row ">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JQK6IIEI', ip: '192.168.0.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\agata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aed5db846e7ff961e60f4bf89c8719be
+

@@ -10,7 +10,6 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/applicationFeature"},
         glue= {"stepdefinitions", "AppHooks"},
-       // plugin= {"pretty"}
         plugin= {"pretty","html:target/cucumber-reports"}
 )
 

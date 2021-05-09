@@ -17,14 +17,14 @@ public class ChartPageSteps {
 	@Then("I should be able to navigate to chart page {string}")
 	public void i_should_be_able_to_navigate_to_chart_page(String expectedTitle) {
 		String title = checkout.getCheckoutPageTitle();
-		System.out.println("Checkout Page title is " + title);
 		Assert.assertTrue(title.contains(expectedTitle));
 	
 	}
 
-	@Then("I should be able to place my order")
-	public void i_should_be_able_to_place_my_order() {
+	@Then("I should be able to place my order on page {string}")
+	public void i_should_be_able_to_place_my_order(String expectedTitle) {
 		try {
+			i_should_be_able_to_navigate_to_chart_page(expectedTitle);
 			checkout.clickOnPlaceOrderButton();
 		} catch (InterruptedException e) {
 		   e.printStackTrace();
