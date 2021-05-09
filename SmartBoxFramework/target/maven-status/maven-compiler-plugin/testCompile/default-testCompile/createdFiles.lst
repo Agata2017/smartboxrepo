@@ -1,0 +1,5 @@
+stepdefinitions\ChartPageSteps.class
+AppHooks\ApplicationHooks.class
+testrunners\TestRunner.class
+stepdefinitions\HomePageSteps.class
+stepdefinitions\ProductDetailsSteps.class
